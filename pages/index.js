@@ -8,7 +8,7 @@ function Home() {
     push("/patients");
   }, []);
   return (
-    <div className={styles.container}>
+    <div>
       <h1>Logged In</h1>
     </div>
   );
