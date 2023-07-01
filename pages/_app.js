@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         title="Med-Ethiopia Admin"
         description="Effortlessly manage your centralized medical system with our powerful admin website."
         url="https://med-ethiopia-admin.vercel.app"
-        image="https://med-ethiopia-admin.vercel.app/logo.png"
+        image="https://med-ethiopia-admin.vercel.app/Admin.svg"
       />
       <AuthContextProvider>``
         {shouldBeAuth ? (
