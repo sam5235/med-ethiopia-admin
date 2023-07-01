@@ -104,31 +104,6 @@ const PostTable = ({ setBlogToApprove, setMetadata }) => {
         </Flex>
 
         <Flex alignItems="center">
-          {selectedBlog && (
-            <Flex>
-              <Button
-                variant="solid"
-                rounded="3xl"
-                colorScheme="brand"
-                onClick={() => {
-                  setBlogToApprove({ ...selectedBlog, edit: true });
-                }}
-              >
-                View Cover Info
-              </Button>
-              <Button
-                variant="solid"
-                rounded="3xl"
-                ml={2}
-                colorScheme="brand"
-                onClick={() => {
-                  setBlogToApprove({ ...selectedBlog, edit: true });
-                }}
-              >
-                View Content
-              </Button>
-            </Flex>
-          )}
           <Input
             placeholder="Search..."
             colorScheme="brand"
