@@ -26,8 +26,8 @@ function MyApp({ Component, pageProps }) {
       <SEOTags
         title="Med-Ethiopia Admin"
         description="Effortlessly manage your centralized medical system with our powerful admin website."
-        url="www.med-ethiopia.admin.com"
-        image="./logo.png"
+        url="https://med-ethiopia-admin.vercel.app"
+        image="https://med-ethiopia-admin.vercel.app/logo.png"
       />
       <AuthContextProvider>
         {shouldBeAuth ? (
