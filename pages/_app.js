@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }) {
         url="https://med-ethiopia-admin.vercel.app"
         image="https://med-ethiopia-admin.vercel.app/logo.png"
       />
-      <AuthContextProvider>
+      <AuthContextProvider>``
         {shouldBeAuth ? (
           <ProtectedRoute>
             <Layout>
